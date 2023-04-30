@@ -32,6 +32,9 @@ Below are the SQL statments for cleaning and transforming necessary data.
 
 ## Data Model
 Below is the screenshot of data model after cleanesd and prepare tabels were read into power BI.
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 This data model also shows how FACT_Budget hsa been connected to FACT_InternetSales and other necessary DIM tables.
 
 ![Model View](https://user-images.githubusercontent.com/132120179/235285881-57aca4e5-8121-4044-8f5b-239a31723b6e.png)
